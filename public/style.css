@@ -1,0 +1,55 @@
+:root {
+    --color-bg: #777;
+    --color-main: #f5f5f5;
+    --color-green: #94B9AF;
+    --color-red: #F5A9A9;
+    --color-grey: #E5E5E5;
+
+}
+
+body {
+    background-color: var(--color-bg);
+}
+
+
+.wrapper {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper > * {
+    background-color: var(--color-main);
+    min-width: 14rem;
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.6);
+}
+
+.rate-container {
+    flex: 1;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.rate-container > * {
+    margin: 0 0.25rem;
+}
+
+.red {
+    background-color: var(--color-red);
+}
+
+.green {
+    background-color: var(--color-green);
+}
+
+.grey {
+    background-color: var(--color-grey);
+}
